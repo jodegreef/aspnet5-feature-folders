@@ -1,2 +1,7 @@
 # aspnet5-feature-folders
-how to configure feature folders in aspnet5 (vNext)
+How to configure feature folders in aspnet5 (vNext)
+
+- add FeatureFolderLocationRemapper.cs to the project
+- call FeatureFolderLocationRemapper from startup class
+- move controllers and views into Features folder as shown in the project
+
